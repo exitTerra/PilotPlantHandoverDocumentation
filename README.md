@@ -34,8 +34,8 @@ flowchart LR
     IO <--> Ctrl
     Ctrl <--> Srv
     Srv <--> Stn
-    Srv <--> "OPC DA (legacy)"
-    "OPC DA (legacy)" --> MATLAB
+    Srv <-- "OPC DA (legacy)" --> OPC
+    OPC --> MATLAB
 
     style OPC fill:#f9d5a7,stroke:#c0791d
     style MATLAB fill:#f7c6c7,stroke:#b23b3b
@@ -69,7 +69,9 @@ flowchart LR
     PY["Python<br/>(asyncua / opcua-client)"]
 
     OPCDA <-- "OPC DA (legacy)" --> GW
-    GW <-- "OPC UA" --> External Applications
+    GW <-- "OPC UA" --> MATLAB
+    GW <-- "OPC UA" --> LV
+    GW <-- "OPC UA" --> PY
 
     style OPCDA fill:#f9d5a7,stroke:#c0791d
     style GW fill:#c9e4de,stroke:#3a7d63
