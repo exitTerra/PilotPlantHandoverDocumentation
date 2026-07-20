@@ -36,9 +36,6 @@ flowchart LR
     Srv <--> Stn
     Srv <-- "OPC DA (legacy)" --> OPC
     OPC --> MATLAB
-
-    style OPC fill:#f9d5a7,stroke:#c0791d
-    style MATLAB fill:#f7c6c7,stroke:#b23b3b
 ```
 
 ### Key Limitation: OPC DA-only Communication
