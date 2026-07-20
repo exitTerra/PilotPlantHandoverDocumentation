@@ -96,7 +96,6 @@ PilotPlantHandoverDocumentation/
 └── 2023 Handover/                              # Main handover package (2022/2023 controller overhaul)
     ├── The MUPP - Control System Overhaul [Final].pdf   # Primary thesis/report describing the overhaul project
     ├── OpcControlTemplateR0.m                            # MATLAB OPC control template (R0) used for plant control
-    ├── Legacy-Resources.zip                              # Archive of prior theses and older documentation (see below)
     ├── Documentation/                                     # Finalised PDF documentation (PP-xxxx numbered docs)
     │   └── Source Documents/                              # Editable .docx source files for the documents above
     └── Tables/                                            # Supporting spreadsheets (interlocks, limits, CM summaries)
