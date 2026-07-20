@@ -69,9 +69,6 @@ flowchart LR
     GW <-- "OPC UA" --> MATLAB
     GW <-- "OPC UA" --> LV
     GW <-- "OPC UA" --> PY
-
-    style OPCDA fill:#f9d5a7,stroke:#c0791d
-    style GW fill:#c9e4de,stroke:#3a7d63
 ```
 
 Key points to keep in mind when scoping this work:
