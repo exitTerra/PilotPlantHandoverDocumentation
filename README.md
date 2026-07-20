@@ -134,7 +134,7 @@ Reference spreadsheets used alongside the documentation:
 
 An archive of older material predating the 2022 revision. This mainly consists of **previous students' theses** covering earlier work on the pilot plant and its control systems, along with other miscellaneous documentation that may still be useful for historical context, design rationale, or ideas not carried forward into later revisions. Worth reviewing when investigating why certain design decisions were made or when researching parts of the plant not covered by the current documentation.
 
-> **Note:** This file is ~1.9GB, too large to host in this repository. It is available via OneDrive instead: [Legacy-Resources.zip](https://1drv.ms/u/c/6bf26ca1efb12cd5/IQCMphMw1OfLQbrzys4IJfJ5AWjd0vajjqSPFBA8FC1vriE?e=hrTRWj)
+> **Note:** This file is ~1.9GB, too large to host in this repository. It is available via OneDrive instead: [Legacy-Resources.zip](https://1drv.ms/u/c/6bf26ca1efb12cd5/IQCMphMw1OfLQbrzys4IJfJ5ARVI41W0-HFlBEMDSvn8uMg?e=rgk5HJ). If you can adjust the controllers in experion you know the password.
 
 ### `OpcControlTemplateR0.m`
 
